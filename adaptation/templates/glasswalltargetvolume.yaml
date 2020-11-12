@@ -5,10 +5,10 @@ metadata:
   labels:
     type: local
 spec:
-  # storageClassName: azurefile
+  storageClassName: local-storage
   capacity:
     storage: 1Gi
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   hostPath:
     path: "/run/desktop/mnt/host/c/test-data-output"
