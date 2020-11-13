@@ -41,8 +41,8 @@ eventsubmissionservice:
   amqpurl: "amqp://guest:guest@rabbitmq-service:5672/"
 imagestore:
   requestprocessing:
-    repository: glasswallsolutions/icap-request-processing
-    tag: develop-81a7f9f
+    repository: elastisys/icap-request-processing
+    tag: test
   adaptationservice:
     repository: glasswallsolutions/icap-adaptation-service
     tag: develop-330790c
