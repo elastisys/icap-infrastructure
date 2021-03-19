@@ -15,7 +15,7 @@ releases:
   namespace: icap-adaptation
   labels:
     app: workload-cluster-glasswall-icap-adaptation
-  chart: ./icap-infrastructure/adaptation
+  chart: ./adaptation
   version: 0.0.1
   missingFileHandler: Error
   values:
@@ -25,7 +25,7 @@ releases:
   namespace: icap-adaptation
   labels:
     app: workload-cluster-glasswall-rabbitmq
-  chart: ./icap-infrastructure/rabbitmq
+  chart: ./rabbitmq
   version: 0.0.1
   missingFileHandler: Error
   values:
